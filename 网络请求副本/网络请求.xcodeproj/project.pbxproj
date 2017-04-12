@@ -18,6 +18,7 @@
 		A02BF8D11E9B181400D94FAD /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A02BF8D01E9B181400D94FAD /* ____Tests.m */; };
 		A02BF8DC1E9B181400D94FAD /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A02BF8DB1E9B181400D94FAD /* ____UITests.m */; };
 		A07136D51E9DD3BF00395340 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A07136D41E9DD3BF00395340 /* Person.m */; };
+		A07136D81E9DD4B700395340 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = A07136D71E9DD4B700395340 /* Dog.m */; };
 		A0A221D71E9C6CF8002D4752 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A221D61E9C6CF8002D4752 /* UIAlertView+Block.m */; };
 		A0A221DB1E9C711A002D4752 /* LDFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A221DA1E9C711A002D4752 /* LDFlowLayout.m */; };
 		A0A221DF1E9C71FE002D4752 /* LDFirestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A221DD1E9C71FE002D4752 /* LDFirestCell.m */; };
@@ -74,6 +75,8 @@
 		A02BF8DD1E9B181500D94FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A07136D31E9DD3BF00395340 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A07136D41E9DD3BF00395340 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A07136D61E9DD4B700395340 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		A07136D71E9DD4B700395340 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		A0A221D51E9C6CF8002D4752 /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
 		A0A221D61E9C6CF8002D4752 /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
 		A0A221D91E9C711A002D4752 /* LDFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDFlowLayout.h; sourceTree = "<group>"; };
@@ -228,6 +231,8 @@
 		A07136D21E9DD3A700395340 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				A07136D61E9DD4B700395340 /* Dog.h */,
+				A07136D71E9DD4B700395340 /* Dog.m */,
 				A07136D31E9DD3BF00395340 /* Person.h */,
 				A07136D41E9DD3BF00395340 /* Person.m */,
 			);
@@ -574,6 +579,7 @@
 				A0B335181E9B59C7006564D8 /* BaseClient.m in Sources */,
 				A02BF8BB1E9B181400D94FAD /* AppDelegate.m in Sources */,
 				A0A221E31E9C725C002D4752 /* LDUnitModel.m in Sources */,
+				A07136D81E9DD4B700395340 /* Dog.m in Sources */,
 				A0A221DF1E9C71FE002D4752 /* LDFirestCell.m in Sources */,
 				A0B335521E9B7B90006564D8 /* HWHttpTool.m in Sources */,
 				A0A221D71E9C6CF8002D4752 /* UIAlertView+Block.m in Sources */,
