@@ -17,6 +17,7 @@
 		A02BF8C61E9B181400D94FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02BF8C41E9B181400D94FAD /* LaunchScreen.storyboard */; };
 		A02BF8D11E9B181400D94FAD /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A02BF8D01E9B181400D94FAD /* ____Tests.m */; };
 		A02BF8DC1E9B181400D94FAD /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A02BF8DB1E9B181400D94FAD /* ____UITests.m */; };
+		A07136D51E9DD3BF00395340 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A07136D41E9DD3BF00395340 /* Person.m */; };
 		A0A221D71E9C6CF8002D4752 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A221D61E9C6CF8002D4752 /* UIAlertView+Block.m */; };
 		A0A221DB1E9C711A002D4752 /* LDFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A221DA1E9C711A002D4752 /* LDFlowLayout.m */; };
 		A0A221DF1E9C71FE002D4752 /* LDFirestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A221DD1E9C71FE002D4752 /* LDFirestCell.m */; };
@@ -71,6 +72,8 @@
 		A02BF8D71E9B181400D94FAD /* 网络请求UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网络请求UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02BF8DB1E9B181400D94FAD /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		A02BF8DD1E9B181500D94FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07136D31E9DD3BF00395340 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A07136D41E9DD3BF00395340 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		A0A221D51E9C6CF8002D4752 /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
 		A0A221D61E9C6CF8002D4752 /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
 		A0A221D91E9C711A002D4752 /* LDFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDFlowLayout.h; sourceTree = "<group>"; };
@@ -170,6 +173,7 @@
 		A02BF8B51E9B181400D94FAD /* 网络请求 */ = {
 			isa = PBXGroup;
 			children = (
+				A07136D21E9DD3A700395340 /* Other */,
 				A0A221D81E9C7103002D4752 /* CollectionView */,
 				A0A221D41E9C6B70002D4752 /* Objc-Runtime */,
 				A0B335141E9B5961006564D8 /* 网络层封装方式1 */,
@@ -219,6 +223,15 @@
 				A02BF8C71E9B181400D94FAD /* Info.plist */,
 			);
 			name = System;
+			sourceTree = "<group>";
+		};
+		A07136D21E9DD3A700395340 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A07136D31E9DD3BF00395340 /* Person.h */,
+				A07136D41E9DD3BF00395340 /* Person.m */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 		A0A221D41E9C6B70002D4752 /* Objc-Runtime */ = {
@@ -566,6 +579,7 @@
 				A0A221D71E9C6CF8002D4752 /* UIAlertView+Block.m in Sources */,
 				A0B3351C1E9B5AA9006564D8 /* ISNull.m in Sources */,
 				A0A221DB1E9C711A002D4752 /* LDFlowLayout.m in Sources */,
+				A07136D51E9DD3BF00395340 /* Person.m in Sources */,
 				A02BF8B81E9B181400D94FAD /* main.m in Sources */,
 				A0A221E61E9CAD8D002D4752 /* UILabel+label.m in Sources */,
 				A0B3354E1E9B7578006564D8 /* LDHomeAPI.m in Sources */,
